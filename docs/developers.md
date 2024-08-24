@@ -58,6 +58,7 @@ Features to add:
     - Consider removing anything that can be controlled exclusively by CSS
         - cursor_distance?
     - Marker.scale should be independent of line width with (use px) a default relative to the line width.
+    - Tick trait should be sealed
 
 ## Development cycle
 

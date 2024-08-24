@@ -149,7 +149,7 @@ impl<T, Y: Tick, U: Fn(&T) -> Y> GetYValue<T, Y> for U {
         self(t)
     }
 
-    fn cumulative_value(&self, t: &T) -> Y {
+    fn stacked_value(&self, t: &T) -> Y {
         self(t)
     }
 }
